@@ -34,7 +34,7 @@ def get_move(board, player):
             continue
         index = int(move) - 1
         if board[index] != " ":
-            print("That spot is already taken. Try again.")
+            print("‼️ That spot is already taken. Try again. ‼️")
             continue
         return index
 
